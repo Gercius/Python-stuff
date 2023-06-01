@@ -10,7 +10,6 @@
 id = "\"id\": "
 title= "\"title\": "
 
-
 with open('stuff.json', 'w') as file:
     file.write(
         f"[\n\t{{\n\t\t{id}{str(1)},\n\t\t{title}\"1st item\"\n\t}},\n"+
@@ -23,6 +22,3 @@ with open('stuff.json', 'w') as file:
         )
     file.write("]")
                              
-  
-
-
