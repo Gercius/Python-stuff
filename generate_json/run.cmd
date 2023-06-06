@@ -1,0 +1,1 @@
+start python generate_json.py
